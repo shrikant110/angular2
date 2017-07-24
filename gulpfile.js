@@ -17,7 +17,7 @@ gulp.task('dist', function(done) {
         done();
     });
 });
-
+//Great
 gulp.task('bundle', ['bundle:vendor', 'bundle:app'], function () {
     return gulp.src('index.html')
         .pipe(htmlreplace({
